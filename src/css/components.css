@@ -1,0 +1,168 @@
+@font-face {
+  font-family: Name-2;
+  src: url(ChakraPetch-BoldItalic.ttf);
+}
+
+body {
+  --font-color: rgb(240, 240, 240);
+  --background-color: rgb(10, 10, 10);
+  --card-hover-bg: rgba(255, 255, 255, 0.12);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  transition-property: color, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  margin-bottom: 0;
+}
+
+.Header {
+  padding: 2%;
+  font-weight: 600;
+  color: var(--font-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom:0;
+}
+
+.Header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.Header__inner2 {
+  font-family: Name-2;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  flex-shrink: inherit;
+}
+
+.Header__inner2 > p {
+  font-size: 80%;
+  font-weight: 400;
+  margin: 0;
+  padding: 1px;
+}
+
+.Header__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: var(--font-color);
+}
+.Card {
+  margin-top: 5%;
+  margin-right: 2%;
+  border-radius: 8px;
+  height: 250px;
+  position: relative;
+  padding: 8px;
+  overflow: hidden; /* Hide overflow for the pseudo-element */
+}
+
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+.Card::before {
+  content: "";
+  position: absolute;
+  border-radius: 8px; 
+  overflow: hidden;/* Apply the same border-radius */
+}
+
+.Card:hover {
+  --border-size: 3px;
+  --border-angle: 0turn;
+  background-image: conic-gradient(
+      from var(--border-angle),
+      #000,
+      #111 50%,
+      #000
+    ),
+    conic-gradient(
+      from var(--border-angle),
+      transparent 40%,
+      rgb(255, 255, 255),
+      rgb(0, 0, 0)
+    );
+  background-size: calc(100% - (var(--border-size) * 2))
+      calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: bg-spin 3s linear infinite;
+  inset: 2px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+/* Custom Property Definition */
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+
+.data {
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 140%;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  display: inline;
+}
+
+p {
+  font-size: 100%;
+  font-weight: 400;
+  color: rgb(202, 202, 202);
+  margin-bottom: 5px;
+}
+
+.cover {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  height: 150px;
+}
+
+.Footer {
+  font-size: small;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.heart {
+  color: #db2929;
+}
+
+.Footer > p {
+  font-weight: 600;
+}
+.mt-0{
+  margin-top: 0;
+}
