@@ -39,7 +39,7 @@ const items: ItemType[] = [
     "title": "YouTube",
     "subtitle": "@Gm_Abhishek | Glance at my videos",
     "image": youtube,
-    "link": "https://www.youtube.com/channel/UCWjz9m7OlplMaJu_RBKXVow/"
+    "link": "https://youtube.com/@gm_abhishek"
 },
 
 
