@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfb575bb.css",
-    "main.js": "/static/js/main.b70115bb.js",
+    "main.css": "/static/css/main.a184e571.css",
+    "main.js": "/static/js/main.b2c47542.js",
     "static/media/Avatar.jpg": "/static/media/Avatar.044b08e49d0e1fe4ea65.jpg",
     "static/media/instagram.png": "/static/media/instagram.a0b6eb5ee109a787e2cc.png",
     "static/media/ChakraPetch-BoldItalic.ttf": "/static/media/ChakraPetch-BoldItalic.928ac528b263e4fc23ae.ttf",
+    "static/media/mail.jpeg": "/static/media/mail.1dda75fd0832a012a384.jpeg",
     "static/media/telegram.png": "/static/media/telegram.747f93fdc725b876d4b8.png",
     "static/media/Spotify.png": "/static/media/Spotify.9163a8afff9b1d370f49.png",
     "static/media/linkedin.jpg": "/static/media/linkedin.2c77993107c982a8b050.jpg",
     "static/media/snapchat.png": "/static/media/snapchat.024a44bf6cd7661af55a.png",
     "static/media/github.png": "/static/media/github.8962f6f4e4be384ec9a4.png",
     "index.html": "/index.html",
-    "main.cfb575bb.css.map": "/static/css/main.cfb575bb.css.map",
-    "main.b70115bb.js.map": "/static/js/main.b70115bb.js.map"
+    "main.a184e571.css.map": "/static/css/main.a184e571.css.map",
+    "main.b2c47542.js.map": "/static/js/main.b2c47542.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfb575bb.css",
-    "static/js/main.b70115bb.js"
+    "static/css/main.a184e571.css",
+    "static/js/main.b2c47542.js"
   ]
 }
