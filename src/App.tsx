@@ -6,10 +6,12 @@ import { items } from './assets/items'
 
 import './css/skeleton.css'
 import './css/normalize.css'
+import Stars from './components/Stars';
 
 function App(): JSX.Element {
     return ( 
         <div className = "App" >
+            <Stars/>
             <Header/>
             <div className = "container row mt-0">
                 

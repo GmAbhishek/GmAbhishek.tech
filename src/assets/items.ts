@@ -7,6 +7,7 @@ import telegram from '../assets/telegram.png'
 import spotify from '../assets/Spotify.png'
 import X from '../assets/X.png'
 import snapchat from '../assets/snapchat.png'
+import Mail from '../assets/mail.jpeg'
 
 import { ItemType } from '../ts';
 
@@ -35,13 +36,13 @@ const items: ItemType[] = [
     "image": linkedin,
     "link": "https://www.linkedin.com/in/gm-abhishek-a39348224/" // linkedin
 },
-{
-    "title": "YouTube",
-    "subtitle": "@Gm_Abhishek | Glance at my videos",
-    "image": youtube,
-    "link": "https://youtube.com/@gm_abhishek"
-},
 
+{
+    "title": "Spotify",
+    "subtitle": "@Gm_Abhishek | Tune in W me ",
+    "image": spotify,
+    "link": "https://open.spotify.com/user/31tb2rg3vnytlj3g4rujpcldwrry?si=d3cb4b17735545d7" //Telegram Pofile 
+},
 
 {
     "title": "Telegram",
@@ -56,11 +57,18 @@ const items: ItemType[] = [
     "link": "https://www.snapchat.com/add/gm_abhishek?sender_web_id=9a505cdd-cb38-45cf-b902-a9f93f4cabce&device_type=desktop&is_copy_url=true" //Telegram Pofile 
 },
 {
-    "title": "Spotify",
-    "subtitle": "@Gm_Abhishek | Tune in W me ",
-    "image": spotify,
-    "link": "https://open.spotify.com/user/31tb2rg3vnytlj3g4rujpcldwrry?si=d3cb4b17735545d7" //Telegram Pofile 
-}]
+    "title": "YouTube",
+    "subtitle": "@Gm_Abhishek | Glance at my videos",
+    "image": youtube,
+    "link": "https://youtube.com/@gm_abhishek"
+},
+{
+    "title": "Mail",
+    "subtitle": "@Gm_Abhishek | Reach out to me",
+    "image": Mail,
+    "link": "mailto:gmabhishek2004@gmail.com" //Telegram Pofile 
+}
+]
 
 
 export { items}
